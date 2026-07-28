@@ -1,0 +1,1162 @@
+{
+    "dataEngineer": [
+        {
+            "id": "de-python",
+            "title": "Python",
+            "duration": "2 Weeks",
+            "description": "Learn Python fundamentals, OOP, file handling, and packages.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        },
+        {
+            "id": "de-sql",
+            "title": "SQL",
+            "duration": "2 Weeks",
+            "description": "Master SQL queries, joins, indexing, and stored procedures.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        },
+        {
+            "id": "de-pandas",
+            "title": "Pandas",
+            "duration": "1 Week",
+            "description": "Data cleaning and manipulation using Pandas.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+        },
+        {
+            "id": "de-etl",
+            "title": "ETL",
+            "duration": "1 Week",
+            "description": "Learn Extract, Transform and Load pipelines.",
+            "image": "https://img.icons8.com/color/96/data-configuration.png"
+        },
+        {
+            "id": "de-spark",
+            "title": "Apache Spark",
+            "duration": "2 Weeks",
+            "description": "Distributed data processing using Spark.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg"
+        },
+        {
+            "id": "de-airflow",
+            "title": "Apache Airflow",
+            "duration": "2 Weeks",
+            "description": "Schedule and monitor workflows.",
+            "image": "https://img.icons8.com/color/96/workflow.png"
+        },
+        {
+            "id": "de-hadoop",
+            "title": "Hadoop",
+            "duration": "2 Weeks",
+            "description": "Big Data storage using HDFS.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg"
+        },
+        {
+            "id": "de-aws",
+            "title": "AWS",
+            "duration": "2 Weeks",
+            "description": "Cloud services including EC2, S3 and Lambda.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+        }
+    ],
+    "dataScientist": [
+        {
+            "id": "ds-python",
+            "title": "Python",
+            "duration": "2 Weeks",
+            "description": "Programming fundamentals.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        },
+        {
+            "id": "ds-numpy",
+            "title": "NumPy",
+            "duration": "1 Week",
+            "description": "Scientific computing using NumPy.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+        },
+        {
+            "id": "ds-pandas",
+            "title": "Pandas",
+            "duration": "1 Week",
+            "description": "Data manipulation.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+        },
+        {
+            "id": "ds-statistics",
+            "title": "Statistics",
+            "duration": "2 Weeks",
+            "description": "Probability and hypothesis testing.",
+            "image": "https://img.icons8.com/color/96/combo-chart.png"
+        },
+        {
+            "id": "ds-visualization",
+            "title": "Data Visualization",
+            "duration": "1 Week",
+            "description": "Matplotlib and Seaborn.",
+            "image": "https://img.icons8.com/color/96/bar-chart.png"
+        },
+        {
+            "id": "ds-ml",
+            "title": "Machine Learning",
+            "duration": "3 Weeks",
+            "description": "Regression, classification and clustering.",
+            "image": "https://img.icons8.com/color/96/artificial-intelligence.png"
+        },
+        {
+            "id": "ds-dl",
+            "title": "Deep Learning",
+            "duration": "2 Weeks",
+            "description": "Neural networks using TensorFlow.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+        },
+        {
+            "id": "ds-tableau",
+            "title": "Tableau",
+            "duration": "1 Week",
+            "description": "Interactive dashboards.",
+            "image": "https://img.icons8.com/color/96/combo-chart.png"
+        }
+    ],
+    "dataAnalyst": [
+        {
+            "id": "da-excel",
+            "title": "Excel",
+            "duration": "1 Week",
+            "description": "Advanced Excel functions.",
+            "image": "https://img.icons8.com/color/96/microsoft-excel-2019.png"
+        },
+        {
+            "id": "da-sql",
+            "title": "SQL",
+            "duration": "2 Weeks",
+            "description": "Database querying.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        },
+        {
+            "id": "da-python",
+            "title": "Python",
+            "duration": "2 Weeks",
+            "description": "Python for analytics.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        },
+        {
+            "id": "da-pandas",
+            "title": "Pandas",
+            "duration": "1 Week",
+            "description": "Data analysis using Pandas.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+        },
+        {
+            "id": "da-powerbi",
+            "title": "Power BI",
+            "duration": "2 Weeks",
+            "description": "Business dashboards.",
+            "image": "https://img.icons8.com/color/96/power-bi.png"
+        },
+        {
+            "id": "da-tableau",
+            "title": "Tableau",
+            "duration": "2 Weeks",
+            "description": "Interactive visualization.",
+            "image": "https://img.icons8.com/color/96/combo-chart.png"
+        },
+        {
+            "id": "da-statistics",
+            "title": "Statistics",
+            "duration": "2 Weeks",
+            "description": "Statistical analysis.",
+            "image": "https://img.icons8.com/color/96/combo-chart.png"
+        },
+        {
+            "id": "da-business",
+            "title": "Business Analytics",
+            "duration": "2 Weeks",
+            "description": "Business insights and KPIs.",
+            "image": "https://img.icons8.com/color/96/business.png"
+        }
+    ],
+    "businessAnalyst": [
+        {
+            "id": "ba-excel",
+            "title": "Excel",
+            "duration": "2 Weeks",
+            "description": "Excel for business analysis.",
+            "image": "https://img.icons8.com/color/96/microsoft-excel-2019.png"
+        },
+        {
+            "id": "ba-sql",
+            "title": "SQL",
+            "duration": "2 Weeks",
+            "description": "SQL fundamentals.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        },
+        {
+            "id": "ba-powerbi",
+            "title": "Power BI",
+            "duration": "2 Weeks",
+            "description": "Business dashboards.",
+            "image": "https://img.icons8.com/color/96/power-bi.png"
+        },
+        {
+            "id": "ba-tableau",
+            "title": "Tableau",
+            "duration": "2 Weeks",
+            "description": "Reporting dashboards.",
+            "image": "https://img.icons8.com/color/96/combo-chart.png"
+        },
+        {
+            "id": "ba-kpi",
+            "title": "KPI Design",
+            "duration": "1 Week",
+            "description": "Measure business performance.",
+            "image": "https://img.icons8.com/color/96/goal.png"
+        },
+        {
+            "id": "ba-agile",
+            "title": "Agile",
+            "duration": "1 Week",
+            "description": "Scrum and Agile methodology.",
+            "image": "https://img.icons8.com/color/96/task.png"
+        },
+        {
+            "id": "ba-documentation",
+            "title": "Documentation",
+            "duration": "1 Week",
+            "description": "Requirement gathering and BRDs.",
+            "image": "https://img.icons8.com/color/96/document.png"
+        },
+        {
+            "id": "ba-communication",
+            "title": "Communication",
+            "duration": "1 Week",
+            "description": "Stakeholder communication.",
+            "image": "https://img.icons8.com/color/96/conference.png"
+        }
+    ],
+    "fullStack": [
+        {
+            "id": "fs-html",
+            "title": "HTML",
+            "duration": "1 Week",
+            "description": "Structure webpages.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": "fs-css",
+            "title": "CSS",
+            "duration": "1 Week",
+            "description": "Responsive layouts.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+        },
+        {
+            "id": "fs-js",
+            "title": "JavaScript",
+            "duration": "2 Weeks",
+            "description": "Programming fundamentals.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        },
+        {
+            "id": "fs-react",
+            "title": "React",
+            "duration": "2 Weeks",
+            "description": "Frontend development.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        },
+        {
+            "id": "fs-node",
+            "title": "Node.js",
+            "duration": "2 Weeks",
+            "description": "Backend APIs.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        },
+        {
+            "id": "fs-express",
+            "title": "Express.js",
+            "duration": "1 Week",
+            "description": "REST API development.",
+            "image": "https://img.icons8.com/ios-filled/100/api-settings.png"
+        },
+        {
+            "id": "fs-mongodb",
+            "title": "MongoDB",
+            "duration": "1 Week",
+            "description": "NoSQL database.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+        },
+        {
+            "id": "fs-git",
+            "title": "Git & GitHub",
+            "duration": "1 Week",
+            "description": "Version control.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        }
+    ],
+    "frontendDeveloper": [
+        {
+            "id": "fe-html",
+            "title": "HTML",
+            "duration": "1 Week",
+            "description": "HTML fundamentals.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": "fe-css",
+            "title": "CSS",
+            "duration": "2 Weeks",
+            "description": "Modern CSS and Flexbox.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+        },
+        {
+            "id": "fe-js",
+            "title": "JavaScript",
+            "duration": "3 Weeks",
+            "description": "Modern JavaScript.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        },
+        {
+            "id": "fe-react",
+            "title": "React",
+            "duration": "3 Weeks",
+            "description": "Build interactive UIs.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        },
+        {
+            "id": "fe-tailwind",
+            "title": "Tailwind CSS",
+            "duration": "1 Week",
+            "description": "Utility-first CSS framework.",
+            "image": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+        },
+        {
+            "id": "fe-typescript",
+            "title": "TypeScript",
+            "duration": "2 Weeks",
+            "description": "Strongly typed JavaScript.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+        },
+        {
+            "id": "fe-redux",
+            "title": "Redux",
+            "duration": "1 Week",
+            "description": "State management.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+        },
+        {
+            "id": "fe-git",
+            "title": "Git & GitHub",
+            "duration": "1 Week",
+            "description": "Version control.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        }
+    ],
+    "backendDeveloper": [
+        {
+            "id": "be-node",
+            "title": "Node.js",
+            "duration": "2 Weeks",
+            "description": "Backend development using Node.js.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        },
+        {
+            "id": "be-express",
+            "title": "Express.js",
+            "duration": "2 Weeks",
+            "description": "REST API development.",
+            "image": "https://img.icons8.com/ios-filled/100/api-settings.png"
+        },
+        {
+            "id": "be-sql",
+            "title": "SQL",
+            "duration": "2 Weeks",
+            "description": "Database management.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        },
+        {
+            "id": "be-mongodb",
+            "title": "MongoDB",
+            "duration": "2 Weeks",
+            "description": "NoSQL database.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+        },
+        {
+            "id": "be-auth",
+            "title": "Authentication",
+            "duration": "1 Week",
+            "description": "JWT and OAuth.",
+            "image": "https://img.icons8.com/color/96/lock.png"
+        },
+        {
+            "id": "be-docker",
+            "title": "Docker",
+            "duration": "1 Week",
+            "description": "Containerization.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        },
+        {
+            "id": "be-aws",
+            "title": "AWS",
+            "duration": "2 Weeks",
+            "description": "Cloud deployment.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+        },
+        {
+            "id": "be-git",
+            "title": "Git & GitHub",
+            "duration": "1 Week",
+            "description": "Version control.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        }
+    ],
+    "aiEngineer": [
+        {
+            "id": "ai-python",
+            "title": "Python",
+            "duration": "2 Weeks",
+            "description": "Master Python programming for AI applications.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        },
+        {
+            "id": "ai-math",
+            "title": "Mathematics",
+            "duration": "2 Weeks",
+            "description": "Linear Algebra, Calculus and Probability.",
+            "image": "https://img.icons8.com/color/96/calculator.png"
+        },
+        {
+            "id": "ai-ml",
+            "title": "Machine Learning",
+            "duration": "3 Weeks",
+            "description": "Regression, Classification and Clustering.",
+            "image": "https://img.icons8.com/color/96/artificial-intelligence.png"
+        },
+        {
+            "id": "ai-dl",
+            "title": "Deep Learning",
+            "duration": "3 Weeks",
+            "description": "Neural Networks, CNNs and RNNs.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+        },
+        {
+            "id": "ai-nlp",
+            "title": "Natural Language Processing",
+            "duration": "2 Weeks",
+            "description": "Text processing and language models.",
+            "image": "https://img.icons8.com/color/96/chatgpt.png"
+        },
+        {
+            "id": "ai-langchain",
+            "title": "LangChain",
+            "duration": "1 Week",
+            "description": "Develop LLM-powered applications.",
+            "image": "https://python.langchain.com/img/brand/wordmark.png"
+        },
+        {
+            "id": "ai-vector",
+            "title": "Vector Databases",
+            "duration": "1 Week",
+            "description": "Embeddings and semantic search.",
+            "image": "https://img.icons8.com/color/96/database.png"
+        },
+        {
+            "id": "ai-deploy",
+            "title": "Model Deployment",
+            "duration": "2 Weeks",
+            "description": "Deploy AI models using FastAPI and Docker.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        }
+    ],
+    "machineLearningEngineer": [
+        {
+            "id": "ml-python",
+            "title": "Python",
+            "duration": "2 Weeks",
+            "description": "Python for Machine Learning.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        },
+        {
+            "id": "ml-numpy",
+            "title": "NumPy",
+            "duration": "1 Week",
+            "description": "Scientific computing with arrays.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+        },
+        {
+            "id": "ml-pandas",
+            "title": "Pandas",
+            "duration": "1 Week",
+            "description": "Data preprocessing.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+        },
+        {
+            "id": "ml-sklearn",
+            "title": "Scikit-Learn",
+            "duration": "3 Weeks",
+            "description": "Classical ML algorithms.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
+        },
+        {
+            "id": "ml-feature",
+            "title": "Feature Engineering",
+            "duration": "2 Weeks",
+            "description": "Feature selection and transformation.",
+            "image": "https://img.icons8.com/color/96/settings.png"
+        },
+        {
+            "id": "ml-evaluation",
+            "title": "Model Evaluation",
+            "duration": "1 Week",
+            "description": "Cross validation and metrics.",
+            "image": "https://img.icons8.com/color/96/test-passed.png"
+        },
+        {
+            "id": "ml-mlops",
+            "title": "MLOps",
+            "duration": "2 Weeks",
+            "description": "Deploy and monitor ML models.",
+            "image": "https://img.icons8.com/color/96/cloud-development.png"
+        },
+        {
+            "id": "ml-docker",
+            "title": "Docker",
+            "duration": "1 Week",
+            "description": "Containerize ML applications.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        }
+    ],
+    "deepLearningEngineer": [
+        {
+            "id": "dl-python",
+            "title": "Python",
+            "duration": "2 Weeks",
+            "description": "Programming fundamentals.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        },
+        {
+            "id": "dl-numpy",
+            "title": "NumPy",
+            "duration": "1 Week",
+            "description": "Numerical computing.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+        },
+        {
+            "id": "dl-tensorflow",
+            "title": "TensorFlow",
+            "duration": "3 Weeks",
+            "description": "Deep learning framework.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+        },
+        {
+            "id": "dl-pytorch",
+            "title": "PyTorch",
+            "duration": "3 Weeks",
+            "description": "Research-oriented DL framework.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+        },
+        {
+            "id": "dl-cnn",
+            "title": "CNN",
+            "duration": "2 Weeks",
+            "description": "Image processing models.",
+            "image": "https://img.icons8.com/color/96/artificial-intelligence.png"
+        },
+        {
+            "id": "dl-rnn",
+            "title": "RNN & LSTM",
+            "duration": "2 Weeks",
+            "description": "Sequence modeling.",
+            "image": "https://img.icons8.com/color/96/artificial-intelligence.png"
+        },
+        {
+            "id": "dl-transformers",
+            "title": "Transformers",
+            "duration": "2 Weeks",
+            "description": "Attention-based architectures.",
+            "image": "https://img.icons8.com/color/96/artificial-intelligence.png"
+        },
+        {
+            "id": "dl-deployment",
+            "title": "Deployment",
+            "duration": "1 Week",
+            "description": "Deploy deep learning models.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        }
+    ],
+    "genAIEngineer": [
+        {
+            "id": "gai-python",
+            "title": "Python",
+            "duration": "2 Weeks",
+            "description": "Python programming.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        },
+        {
+            "id": "gai-llm",
+            "title": "Large Language Models",
+            "duration": "2 Weeks",
+            "description": "Understanding LLMs.",
+            "image": "https://img.icons8.com/color/96/chatgpt.png"
+        },
+        {
+            "id": "gai-prompt",
+            "title": "Prompt Engineering",
+            "duration": "1 Week",
+            "description": "Design effective prompts.",
+            "image": "https://img.icons8.com/color/96/artificial-intelligence.png"
+        },
+        {
+            "id": "gai-langchain",
+            "title": "LangChain",
+            "duration": "2 Weeks",
+            "description": "Build GenAI applications.",
+            "image": "https://python.langchain.com/img/brand/wordmark.png"
+        },
+        {
+            "id": "gai-rag",
+            "title": "RAG",
+            "duration": "2 Weeks",
+            "description": "Retrieval-Augmented Generation.",
+            "image": "https://img.icons8.com/color/96/search-database.png"
+        },
+        {
+            "id": "gai-vector",
+            "title": "Vector Databases",
+            "duration": "1 Week",
+            "description": "Embeddings and vector search.",
+            "image": "https://img.icons8.com/color/96/database.png"
+        },
+        {
+            "id": "gai-fastapi",
+            "title": "FastAPI",
+            "duration": "1 Week",
+            "description": "Serve AI models as APIs.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+        },
+        {
+            "id": "gai-docker",
+            "title": "Docker",
+            "duration": "1 Week",
+            "description": "Deploy GenAI applications.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        }
+    ],
+    "cloudEngineer": [
+        {
+            "id": "ce-linux",
+            "title": "Linux",
+            "duration": "2 Weeks",
+            "description": "Linux administration.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+        },
+        {
+            "id": "ce-network",
+            "title": "Networking",
+            "duration": "2 Weeks",
+            "description": "TCP/IP, DNS and routing.",
+            "image": "https://img.icons8.com/color/96/network.png"
+        },
+        {
+            "id": "ce-aws",
+            "title": "AWS",
+            "duration": "3 Weeks",
+            "description": "Core AWS services.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+        },
+        {
+            "id": "ce-azure",
+            "title": "Azure",
+            "duration": "2 Weeks",
+            "description": "Microsoft Azure fundamentals.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+        },
+        {
+            "id": "ce-docker",
+            "title": "Docker",
+            "duration": "2 Weeks",
+            "description": "Containerization.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        },
+        {
+            "id": "ce-kubernetes",
+            "title": "Kubernetes",
+            "duration": "2 Weeks",
+            "description": "Container orchestration.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+        },
+        {
+            "id": "ce-terraform",
+            "title": "Terraform",
+            "duration": "2 Weeks",
+            "description": "Infrastructure as Code.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+        },
+        {
+            "id": "ce-monitoring",
+            "title": "Cloud Monitoring",
+            "duration": "1 Week",
+            "description": "Logging and monitoring tools.",
+            "image": "https://img.icons8.com/color/96/combo-chart.png"
+        }
+    ],
+    "devOpsEngineer": [
+        {
+            "id": "do-linux",
+            "title": "Linux",
+            "duration": "2 Weeks",
+            "description": "Linux command line.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+        },
+        {
+            "id": "do-git",
+            "title": "Git",
+            "duration": "1 Week",
+            "description": "Version control.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        },
+        {
+            "id": "do-docker",
+            "title": "Docker",
+            "duration": "2 Weeks",
+            "description": "Containers.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        },
+        {
+            "id": "do-kubernetes",
+            "title": "Kubernetes",
+            "duration": "3 Weeks",
+            "description": "Cluster management.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+        },
+        {
+            "id": "do-jenkins",
+            "title": "Jenkins",
+            "duration": "2 Weeks",
+            "description": "CI/CD pipelines.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+        },
+        {
+            "id": "do-terraform",
+            "title": "Terraform",
+            "duration": "2 Weeks",
+            "description": "Infrastructure as Code.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+        },
+        {
+            "id": "do-aws",
+            "title": "AWS",
+            "duration": "2 Weeks",
+            "description": "Cloud deployment.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+        },
+        {
+            "id": "do-monitoring",
+            "title": "Monitoring",
+            "duration": "1 Week",
+            "description": "Prometheus and Grafana basics.",
+            "image": "https://img.icons8.com/color/96/combo-chart.png"
+        }
+    ],
+    "cyberSecurity": [
+        {
+            "id": "cs-network",
+            "title": "Networking Fundamentals",
+            "duration": "2 Weeks",
+            "description": "OSI model, TCP/IP, DNS and HTTP.",
+            "image": "https://img.icons8.com/color/96/network.png"
+        },
+        {
+            "id": "cs-linux",
+            "title": "Linux",
+            "duration": "2 Weeks",
+            "description": "Linux administration.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+        },
+        {
+            "id": "cs-python",
+            "title": "Python",
+            "duration": "2 Weeks",
+            "description": "Python scripting for security.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        },
+        {
+            "id": "cs-web",
+            "title": "Web Security",
+            "duration": "2 Weeks",
+            "description": "OWASP Top 10 vulnerabilities.",
+            "image": "https://img.icons8.com/color/96/security-checked.png"
+        },
+        {
+            "id": "cs-ethical",
+            "title": "Ethical Hacking",
+            "duration": "3 Weeks",
+            "description": "Penetration testing basics.",
+            "image": "https://img.icons8.com/color/96/hacker.png"
+        },
+        {
+            "id": "cs-wireshark",
+            "title": "Wireshark",
+            "duration": "1 Week",
+            "description": "Network packet analysis.",
+            "image": "https://img.icons8.com/color/96/network-card.png"
+        },
+        {
+            "id": "cs-kali",
+            "title": "Kali Linux",
+            "duration": "2 Weeks",
+            "description": "Security testing environment.",
+            "image": "https://www.kali.org/images/kali-logo.svg"
+        },
+        {
+            "id": "cs-incident",
+            "title": "Incident Response",
+            "duration": "1 Week",
+            "description": "Respond to cyber attacks.",
+            "image": "https://img.icons8.com/color/96/firewall.png"
+        }
+    ],
+    "ethicalHacker": [
+        {
+            "id": "eh-network",
+            "title": "Networking",
+            "duration": "2 Weeks",
+            "description": "Learn TCP/IP, DNS, HTTP, and network protocols.",
+            "image": "https://img.icons8.com/color/96/network.png"
+        },
+        {
+            "id": "eh-linux",
+            "title": "Linux",
+            "duration": "2 Weeks",
+            "description": "Master Linux commands and system administration.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+        },
+        {
+            "id": "eh-python",
+            "title": "Python",
+            "duration": "2 Weeks",
+            "description": "Automate security tasks using Python.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        },
+        {
+            "id": "eh-kali",
+            "title": "Kali Linux",
+            "duration": "2 Weeks",
+            "description": "Use Kali Linux for penetration testing.",
+            "image": "https://www.kali.org/images/kali-logo.svg"
+        },
+        {
+            "id": "eh-metasploit",
+            "title": "Metasploit",
+            "duration": "2 Weeks",
+            "description": "Learn exploitation frameworks.",
+            "image": "https://img.icons8.com/color/96/security-checked.png"
+        },
+        {
+            "id": "eh-burp",
+            "title": "Burp Suite",
+            "duration": "2 Weeks",
+            "description": "Web application security testing.",
+            "image": "https://img.icons8.com/color/96/web.png"
+        },
+        {
+            "id": "eh-wireshark",
+            "title": "Wireshark",
+            "duration": "1 Week",
+            "description": "Analyze network traffic.",
+            "image": "https://img.icons8.com/color/96/network-card.png"
+        },
+        {
+            "id": "eh-reporting",
+            "title": "Security Reporting",
+            "duration": "1 Week",
+            "description": "Write professional penetration testing reports.",
+            "image": "https://img.icons8.com/color/96/document.png"
+        }
+    ],
+    "androidDeveloper": [
+        {
+            "id": "ad-java",
+            "title": "Java",
+            "duration": "2 Weeks",
+            "description": "Learn Java fundamentals.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+        },
+        {
+            "id": "ad-kotlin",
+            "title": "Kotlin",
+            "duration": "2 Weeks",
+            "description": "Primary language for Android development.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
+        },
+        {
+            "id": "ad-androidstudio",
+            "title": "Android Studio",
+            "duration": "1 Week",
+            "description": "Set up and build Android apps.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg"
+        },
+        {
+            "id": "ad-ui",
+            "title": "UI Design",
+            "duration": "2 Weeks",
+            "description": "Design Android interfaces.",
+            "image": "https://img.icons8.com/color/96/android-os.png"
+        },
+        {
+            "id": "ad-firebase",
+            "title": "Firebase",
+            "duration": "2 Weeks",
+            "description": "Authentication and cloud database.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+        },
+        {
+            "id": "ad-api",
+            "title": "REST APIs",
+            "duration": "1 Week",
+            "description": "Connect apps with backend services.",
+            "image": "https://img.icons8.com/ios-filled/100/api-settings.png"
+        },
+        {
+            "id": "ad-room",
+            "title": "Room Database",
+            "duration": "1 Week",
+            "description": "Local database management.",
+            "image": "https://img.icons8.com/color/96/database.png"
+        },
+        {
+            "id": "ad-publish",
+            "title": "Play Store",
+            "duration": "1 Week",
+            "description": "Publish apps to Google Play.",
+            "image": "https://img.icons8.com/color/96/google-play.png"
+        }
+    ],
+    "iosDeveloper": [
+        {
+            "id": "ios-swift",
+            "title": "Swift",
+            "duration": "2 Weeks",
+            "description": "Learn Swift programming.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"
+        },
+        {
+            "id": "ios-xcode",
+            "title": "Xcode",
+            "duration": "1 Week",
+            "description": "Apple IDE for iOS apps.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg"
+        },
+        {
+            "id": "ios-ui",
+            "title": "SwiftUI",
+            "duration": "2 Weeks",
+            "description": "Modern iOS UI development.",
+            "image": "https://img.icons8.com/color/96/iphone.png"
+        },
+        {
+            "id": "ios-coredata",
+            "title": "Core Data",
+            "duration": "2 Weeks",
+            "description": "Persistent local storage.",
+            "image": "https://img.icons8.com/color/96/database.png"
+        },
+        {
+            "id": "ios-api",
+            "title": "REST APIs",
+            "duration": "1 Week",
+            "description": "Networking in iOS.",
+            "image": "https://img.icons8.com/ios-filled/100/api-settings.png"
+        },
+        {
+            "id": "ios-firebase",
+            "title": "Firebase",
+            "duration": "1 Week",
+            "description": "Authentication and backend.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+        },
+        {
+            "id": "ios-testing",
+            "title": "Testing",
+            "duration": "1 Week",
+            "description": "Unit and UI testing.",
+            "image": "https://img.icons8.com/color/96/test-passed.png"
+        },
+        {
+            "id": "ios-appstore",
+            "title": "App Store",
+            "duration": "1 Week",
+            "description": "Publish apps to the App Store.",
+            "image": "https://img.icons8.com/color/96/mac-os.png"
+        }
+    ],
+    "flutterDeveloper": [
+        {
+            "id": "fd-dart",
+            "title": "Dart",
+            "duration": "2 Weeks",
+            "description": "Programming language for Flutter.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"
+        },
+        {
+            "id": "fd-flutter",
+            "title": "Flutter",
+            "duration": "3 Weeks",
+            "description": "Cross-platform app development.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+        },
+        {
+            "id": "fd-ui",
+            "title": "Widgets",
+            "duration": "2 Weeks",
+            "description": "Build responsive user interfaces.",
+            "image": "https://img.icons8.com/color/96/flutter.png"
+        },
+        {
+            "id": "fd-state",
+            "title": "State Management",
+            "duration": "2 Weeks",
+            "description": "Provider, Riverpod and Bloc.",
+            "image": "https://img.icons8.com/color/96/settings.png"
+        },
+        {
+            "id": "fd-firebase",
+            "title": "Firebase",
+            "duration": "2 Weeks",
+            "description": "Backend services for Flutter.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+        },
+        {
+            "id": "fd-api",
+            "title": "REST APIs",
+            "duration": "1 Week",
+            "description": "Consume backend APIs.",
+            "image": "https://img.icons8.com/ios-filled/100/api-settings.png"
+        },
+        {
+            "id": "fd-sqlite",
+            "title": "SQLite",
+            "duration": "1 Week",
+            "description": "Offline storage.",
+            "image": "https://img.icons8.com/color/96/database.png"
+        },
+        {
+            "id": "fd-deploy",
+            "title": "Deployment",
+            "duration": "1 Week",
+            "description": "Publish Android and iOS apps.",
+            "image": "https://img.icons8.com/color/96/cloud-upload.png"
+        }
+    ],
+    "databaseAdministrator": [
+        {
+            "id": "dba-sql",
+            "title": "SQL",
+            "duration": "2 Weeks",
+            "description": "Master SQL queries and database design.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        },
+        {
+            "id": "dba-normalization",
+            "title": "Normalization",
+            "duration": "1 Week",
+            "description": "Design efficient databases.",
+            "image": "https://img.icons8.com/color/96/database.png"
+        },
+        {
+            "id": "dba-indexing",
+            "title": "Indexing",
+            "duration": "1 Week",
+            "description": "Optimize query performance.",
+            "image": "https://img.icons8.com/color/96/search.png"
+        },
+        {
+            "id": "dba-backup",
+            "title": "Backup & Recovery",
+            "duration": "2 Weeks",
+            "description": "Protect and restore databases.",
+            "image": "https://img.icons8.com/color/96/backup.png"
+        },
+        {
+            "id": "dba-security",
+            "title": "Database Security",
+            "duration": "2 Weeks",
+            "description": "Users, roles and permissions.",
+            "image": "https://img.icons8.com/color/96/security-checked.png"
+        },
+        {
+            "id": "dba-performance",
+            "title": "Performance Tuning",
+            "duration": "2 Weeks",
+            "description": "Improve database performance.",
+            "image": "https://img.icons8.com/color/96/speed.png"
+        },
+        {
+            "id": "dba-cloud",
+            "title": "Cloud Databases",
+            "duration": "2 Weeks",
+            "description": "AWS RDS and Azure SQL.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+        },
+        {
+            "id": "dba-monitoring",
+            "title": "Monitoring",
+            "duration": "1 Week",
+            "description": "Monitor database health.",
+            "image": "https://img.icons8.com/color/96/combo-chart.png"
+        }
+    ],
+    "softwareEngineer": [
+        {
+            "id": "se-programming",
+            "title": "Programming Fundamentals",
+            "duration": "2 Weeks",
+            "description": "Master one programming language.",
+            "image": "https://img.icons8.com/color/96/source-code.png"
+        },
+        {
+            "id": "se-dsa",
+            "title": "Data Structures & Algorithms",
+            "duration": "4 Weeks",
+            "description": "Arrays, Trees, Graphs and Dynamic Programming.",
+            "image": "https://img.icons8.com/color/96/flow-chart.png"
+        },
+        {
+            "id": "se-oop",
+            "title": "Object-Oriented Programming",
+            "duration": "2 Weeks",
+            "description": "Classes, inheritance and polymorphism.",
+            "image": "https://img.icons8.com/color/96/class.png"
+        },
+        {
+            "id": "se-dbms",
+            "title": "DBMS",
+            "duration": "2 Weeks",
+            "description": "Database concepts and SQL.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        },
+        {
+            "id": "se-systemdesign",
+            "title": "System Design",
+            "duration": "3 Weeks",
+            "description": "Design scalable systems.",
+            "image": "https://img.icons8.com/color/96/system-task.png"
+        },
+        {
+            "id": "se-git",
+            "title": "Git & GitHub",
+            "duration": "1 Week",
+            "description": "Version control and collaboration.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        },
+        {
+            "id": "se-testing",
+            "title": "Testing",
+            "duration": "2 Weeks",
+            "description": "Unit testing and debugging.",
+            "image": "https://img.icons8.com/color/96/test-passed.png"
+        },
+        {
+            "id": "se-deployment",
+            "title": "Deployment",
+            "duration": "2 Weeks",
+            "description": "Deploy software to production.",
+            "image": "https://img.icons8.com/color/96/cloud-upload.png"
+        }
+    ]
+}
