@@ -1,5 +1,8 @@
+import { getCareerLabel } from "./careers";
+
 function Topic({
     topic,
+    career,
     goBack,
     markCompleted,
     completedTopics
@@ -9,46 +12,57 @@ function Topic({
 
     return (
 
-        <div className="container">
+        <div className="page-shell topic-shell">
+            <section className="topic-detail glass-card">
+                <div className="topic-detail-media">
+                    <img
+                        src={topic.image}
+                        alt={topic.title}
+                        className="topic-large-logo"
+                    />
 
-            <div className="topic-page">
+                    <span className={`status-chip ${isCompleted ? "is-complete" : ""}`}>
+                        {isCompleted ? "Completed" : "In progress"}
+                    </span>
+                </div>
 
-                <img
-                    src={topic.image}
-                    alt={topic.title}
-                    className="topic-large-logo"
-                />
+                <div className="topic-detail-copy">
+                    <span className="eyebrow">{getCareerLabel(career)}</span>
+                    <h1>{topic.title}</h1>
+                    <p className="topic-description">{topic.description}</p>
 
-                <h1>{topic.title}</h1>
+                    <div className="topic-info-grid">
+                        <div>
+                            <span>Duration</span>
+                            <strong>{topic.duration}</strong>
+                        </div>
+                        <div>
+                            <span>Status</span>
+                            <strong>{isCompleted ? "Completed" : "Pending"}</strong>
+                        </div>
+                    </div>
 
-                <h3>Duration</h3>
+                    <div className="topic-actions">
+                        <button
+                            disabled={isCompleted}
+                            onClick={() => markCompleted(topic.id)}
+                        >
 
-                <p>{topic.duration}</p>
+                            {isCompleted
+                                ? "Completed ✔"
+                                : "Mark as complete"}
 
-                <h3>Description</h3>
+                        </button>
 
-                <p>{topic.description}</p>
-
-                <button
-                    disabled={isCompleted}
-                    onClick={() => markCompleted(topic.id)}
-                >
-
-                    {isCompleted
-                        ? "Completed ✔"
-                        : "Mark as Complete"}
-
-                </button>
-
-                <button
-                    className="home-btn"
-                    onClick={goBack}
-                >
-                    ← Back
-                </button>
-
-            </div>
-
+                        <button
+                            className="secondary-btn"
+                            onClick={goBack}
+                        >
+                            Back to roadmap
+                        </button>
+                    </div>
+                </div>
+            </section>
         </div>
 
     );
