@@ -1,14 +1,19 @@
 import { useEffect, useState } from "react";
 import AuthPanel from "./AuthPanel";
 import Home from "./Home";
+import ProfileManager from "./ProfileManager";
 import Roadmap from "./Roadmap";
 import Topic from "./Topic";
 import {
+    deleteUserAccount,
     createUserProfile,
+    getCareerCompletedTopics,
     getUserProfile,
     loadUserStore,
     normalizeUsername,
+    renameUserAccount,
     saveUserStore,
+    updateCareerProgress,
     updateUserProfile
 } from "./userStorage";
 import "./App.css";
@@ -21,7 +26,7 @@ function App() {
     const [currentUser, setCurrentUser] = useState(initialStore.activeUser || "");
     const [career, setCareer] = useState("");
     const [selectedTopic, setSelectedTopic] = useState(null);
-    const [completedTopics, setCompletedTopics] = useState([]);
+    const [profilePanelOpen, setProfilePanelOpen] = useState(false);
     const [theme, setTheme] = useState(() => {
         const savedTheme = localStorage.getItem(THEME_KEY);
 
@@ -37,6 +42,8 @@ function App() {
     });
 
     const activeProfile = currentUser ? getUserProfile(userStore, currentUser) : null;
+    const completedTopics = career && activeProfile ? getCareerCompletedTopics(activeProfile, career) : [];
+    const careerProgressEntries = Object.entries(activeProfile?.careerProgress || {});
 
     useEffect(() => {
         document.documentElement.dataset.theme = theme;
@@ -54,15 +61,15 @@ function App() {
         if (!currentUser) {
             setCareer("");
             setSelectedTopic(null);
-            setCompletedTopics([]);
+            setProfilePanelOpen(false);
             return;
         }
 
         const profile = getUserProfile(userStore, currentUser);
 
         setCareer(profile?.lastCareer || "");
-        setCompletedTopics(profile?.completedTopics || []);
         setSelectedTopic(null);
+        setProfilePanelOpen(false);
     }, [currentUser]);
 
     useEffect(() => {
@@ -137,7 +144,7 @@ function App() {
         setCurrentUser("");
         setCareer("");
         setSelectedTopic(null);
-        setCompletedTopics([]);
+        setProfilePanelOpen(false);
     };
 
     const handleSelectCareer = (careerId) => {
@@ -170,14 +177,51 @@ function App() {
             return;
         }
 
-        const nextCompletedTopics = [...completedTopics, id];
-        setCompletedTopics(nextCompletedTopics);
         setUserStore((previousStore) =>
-            updateUserProfile(previousStore, currentUser, (profile) => ({
-                ...profile,
-                completedTopics: nextCompletedTopics
-            }))
+            updateCareerProgress(previousStore, currentUser, career, (careerTopics) => (
+                careerTopics.includes(id) ? careerTopics : [...careerTopics, id]
+            ))
         );
+    };
+
+    const handleRenameProfile = (nextDisplayName) => {
+        const result = renameUserAccount(userStore, currentUser, nextDisplayName);
+
+        if (!result.ok) {
+            return result;
+        }
+
+        setUserStore(result.store);
+
+        if (result.store.activeUser && result.store.activeUser !== currentUser) {
+            setCurrentUser(result.store.activeUser);
+        }
+
+        return result;
+    };
+
+    const handleDeleteProfile = () => {
+        const result = deleteUserAccount(userStore, currentUser);
+
+        if (!result.ok) {
+            return result;
+        }
+
+        setUserStore(result.store);
+        setCurrentUser(result.store.activeUser || "");
+
+        return result;
+    };
+
+    const handleSwitchProfile = (username) => {
+        const nextUser = normalizeUsername(username);
+
+        if (!userStore.users[nextUser]) {
+            return;
+        }
+
+        setCurrentUser(nextUser);
+        setProfilePanelOpen(false);
     };
 
     return (
@@ -198,6 +242,14 @@ function App() {
                                 <span>Signed in</span>
                                 <strong>{activeProfile?.displayName || currentUser}</strong>
                             </div>
+
+                            <button
+                                type="button"
+                                className="secondary-btn"
+                                onClick={() => setProfilePanelOpen((previous) => !previous)}
+                            >
+                                Profiles
+                            </button>
 
                             <button type="button" className="secondary-btn" onClick={handleLogout}>
                                 Log out
@@ -222,6 +274,20 @@ function App() {
             </header>
 
             <main className="app-main">
+                {currentUser && profilePanelOpen && (
+                    <ProfileManager
+                        currentUser={currentUser}
+                        activeProfile={activeProfile}
+                        users={userStore.users}
+                        currentCareer={career}
+                        onClose={() => setProfilePanelOpen(false)}
+                        onSwitchUser={handleSwitchProfile}
+                        onRenameUser={handleRenameProfile}
+                        onDeleteUser={handleDeleteProfile}
+                        onOpenCareer={handleSelectCareer}
+                    />
+                )}
+
                 {!currentUser ? (
                     <AuthPanel
                         onLogin={handleLogin}
@@ -235,6 +301,7 @@ function App() {
                         resumeCareer={activeProfile?.lastCareer || ""}
                         onResumeCareer={handleResumeCareer}
                         completedCount={completedTopics.length}
+                        careerProgressEntries={careerProgressEntries}
                     />
                 ) : selectedTopic ? (
                     <Topic

@@ -859,6 +859,180 @@
     line-height: 1.6;
 }
 
+.profile-manager {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    gap: 1.2rem;
+    padding: 1.25rem;
+}
+
+.profile-manager-header {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.profile-manager-header h2 {
+    margin-top: 0.65rem;
+    font-size: clamp(1.3rem, 2.5vw, 1.9rem);
+}
+
+.profile-manager-grid {
+    display: grid;
+    grid-template-columns: 0.95fr 1.05fr;
+    gap: 1rem;
+}
+
+.profile-manager-column {
+    display: grid;
+    gap: 1rem;
+}
+
+.profile-summary-card,
+.profile-form-card,
+.profile-progress-card {
+    padding: 1rem;
+    border-radius: 22px;
+    background: color-mix(in srgb, var(--surface-strong) 84%, transparent);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+}
+
+.profile-summary-label,
+.profile-section-label {
+    display: inline-block;
+    margin-bottom: 0.65rem;
+    color: var(--accent);
+    font-size: 0.76rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.profile-summary-card strong {
+    display: block;
+    color: var(--text-primary);
+    font-size: 1.1rem;
+}
+
+.profile-summary-card p {
+    margin-top: 0.45rem;
+    color: var(--text-secondary);
+}
+
+.profile-switcher,
+.profile-progress-card {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.profile-switch-list {
+    display: grid;
+    gap: 0.6rem;
+    max-height: 18rem;
+    overflow: auto;
+    padding-right: 0.2rem;
+}
+
+.profile-switch-list button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.9rem 1rem;
+    border-radius: 16px;
+    background: var(--surface-strong);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    cursor: pointer;
+    text-align: left;
+}
+
+.profile-switch-list button.is-active {
+    border-color: var(--border-strong);
+    box-shadow: 0 14px 30px rgba(37, 99, 235, 0.12);
+}
+
+.profile-switch-list button strong,
+.profile-progress-item strong {
+    display: block;
+    color: var(--text-primary);
+}
+
+.profile-switch-list button span,
+.profile-progress-item span {
+    font-size: 0.82rem;
+    color: var(--text-soft);
+}
+
+.profile-action-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+}
+
+.danger-btn {
+    border-color: rgba(239, 68, 68, 0.25);
+    color: #ef4444;
+}
+
+.profile-message {
+    margin-top: 0.4rem;
+}
+
+.profile-progress-list {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.profile-progress-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.9rem 1rem;
+    border-radius: 18px;
+    background: var(--surface-strong);
+    border: 1px solid var(--border);
+}
+
+.profile-progress-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.progress-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 3.2rem;
+    padding: 0.35rem 0.55rem;
+    border-radius: 999px;
+    background: rgba(37, 99, 235, 0.12);
+    color: var(--accent);
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+.empty-inline {
+    padding: 0.85rem;
+    border-radius: 16px;
+    background: var(--surface-strong);
+    border: 1px dashed var(--border);
+}
+
+.profile-footnote {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    color: var(--text-soft);
+    font-size: 0.84rem;
+}
+
 .site-footer {
     position: relative;
     z-index: 1;
@@ -932,6 +1106,10 @@
         grid-template-columns: 1fr;
     }
 
+    .profile-manager-grid {
+        grid-template-columns: 1fr;
+    }
+
     .section-header,
     .site-footer {
         align-items: start;
@@ -975,7 +1153,8 @@
     .hero-stats,
     .progress-summary,
     .topic-info-grid,
-    .auth-highlights {
+    .auth-highlights,
+    .profile-action-row {
         grid-template-columns: 1fr;
     }
 
@@ -984,6 +1163,18 @@
         grid-template-columns: 1fr;
         flex-direction: column;
         align-items: start;
+    }
+
+    .profile-manager-header,
+    .profile-progress-item,
+    .profile-footnote {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .profile-progress-actions {
+        width: 100%;
+        justify-content: space-between;
     }
 
     .topic-detail-media,
@@ -1001,7 +1192,8 @@
     .theme-toggle,
     .topic-card button,
     .empty-state button,
-    .auth-tabs button {
+    .auth-tabs button,
+    .profile-switch-list button {
         width: 100%;
         justify-content: center;
     }

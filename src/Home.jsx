@@ -113,7 +113,7 @@ const careerIconMap = {
     )
 };
 
-function Home({ onCareerSelect, resumeCareer, onResumeCareer, completedCount }) {
+function Home({ onCareerSelect, resumeCareer, onResumeCareer, completedCount, careerProgressEntries = [] }) {
     const [query, setQuery] = useState("");
 
     const filteredCareers = careerOptions.filter((career) => {
@@ -169,8 +169,8 @@ function Home({ onCareerSelect, resumeCareer, onResumeCareer, completedCount }) 
                             <span>Career paths</span>
                         </div>
                         <div>
-                            <strong>Saved</strong>
-                            <span>Local progress</span>
+                            <strong>{careerProgressEntries.length}</strong>
+                            <span>Saved paths</span>
                         </div>
                         <div>
                             <strong>One click</strong>
